@@ -1,0 +1,13 @@
+OnyxMetaAutomation/*
+Logs/*
+Reports/*
+ScreenshotFailedTestCases/*
+target/*
+test-output/*
+.classpath
+.metadata/*
+.project
+.settings/*
+/target/
+.vscode/*
+screen-records/*

@@ -1,0 +1,27 @@
+[
+	{
+		"seller": "India",
+		"no_value": "  ",
+		"tagName1": "YK23",
+		"tagName2": "YK2096",
+		"prefix_value": "Yatindra",
+		"new_prefix_value": "newPrefixValue",
+		"suffix_value": "Kinker",
+		"new_suffix_value": "newSuffixValue",
+		"amazon": "Amazon",
+		"cancelation_reason": "User refund",
+		"invalid_cancelation_reason": "abc",
+		"num_of_items_to_return": "1",
+		"baseUrlCreateOrder": "https://amazon-sales-channel-app-backend.cifapps.com/connector/order/testOrderCreate",
+		"baseUrlCancelOrderLive": "https://amazon-sales-channel-app-backend.cifapps.com/connector/test/orderCancellation",
+		"Amount": "10.00",
+		"SellerSKU": "#codisto-1959",
+		"shop_id": "73342",
+		"home_shop_id": "73342",
+		"order_id": "4464032219180",
+		"marketplace": "amazon",
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VyX2lkIjoiNjNlNDk0ZmY1MDkyYjY0ZTQ3MDE5ZTA0Iiwicm9sZSI6ImN1c3RvbWVyIiwiZXhwIjoxNjc2OTEyNDk2LCJpc3MiOiJodHRwczpcL1wvYXBwcy5jZWRjb21tZXJjZS5jb20iLCJ0b2tlbl9pZCI6IjYzZjM2ZjMwMjgxZTVhYjVmYzAyNWZhMyJ9.VkGiXPlcZ8ZxPe3wdw2j3Ul2EYV0pYO-DRuRg0tWICp9rrw0d_tELogQ8x_YSrFi6tz6Kj-KBX0G0oiKZumJNoIcIidnFFllEPWJd_VeV23VuG-inr_sN8la-fowRJZb17SOWefih6iV-p4BPQ5mRJat5zguajaKAsjwcm3WPEWeoR4pAEyDHTkSiumqjoXMYuHlbIVc_E64RCIBShQcwCWeEQYCdtjyIj4ZjQTFyK_Ekp-P16r3cO1bdOaFze5g6aArJNTvoYKFkuPIzGaHsQYkLpNhxx0IYwhH0RTN_MGz5YAoL4rU2cVqeGX-AF88bU6nr3LODSJ5rIbaCsaTnQ",
+		"invalid_Val": "invalid value",
+		"quantity_to_cancel": "1"
+	}
+]

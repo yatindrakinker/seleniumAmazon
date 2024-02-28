@@ -1,0 +1,11 @@
+[
+	{
+		"product": "prodthree",
+		"new_name" : "prod3",
+		"value_above_30" : "31",
+		"mixed_value" : "QwE!12",
+		"test_price" : "abc5000",
+		"test_qty" : "xyz50",
+		"test_sku" : "1234567890!@#DSDF"
+	}
+]

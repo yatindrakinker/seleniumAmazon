@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" >
+
+	<listeners>
+			<listener class-name="listeners.Listeners"/>
+	</listeners>
+
+	<test name="Local Selling Test">
+			<parameter name="browser" value="chrome" />
+			<groups>
+				<run>
+					<exclude name="api" />
+				</run>
+			</groups>
+			<classes>
+				<class name="com.AMI.TestCases.LocalSellingTest"/>
+			</classes>
+	</test>
+
+</suite> 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" >
+
+	<listeners>
+		<listener class-name="listeners.Listeners"/>
+	</listeners>
+
+  <test name="Cedcommerce Amazon Test">
+
+	<parameter name="browser" value="chrome"/>
+
+	    <classes>
+			<class name="com.AMI.TestCases.OrderTest"/>
+	<!--
+			<class name="com.AMI.TestCases.FailedCanceledOrderTest"/>
+			<class name="com.AMI.TestCases.FailedRefundOrdersTest"/>
+			<class name="com.AMI.TestCases.FailedOrdersOverviewTest"/>
+			<class name="com.AMI.TestCases.ProductLinkingOverviewTest"/>
+			<class name="com.AMI.TestCases.ProductLinkingTest"/>
+			<class name="com.AMI.TestCases.PricingPlanTest"/>
+
+			<class name="com.AMI.TestCases.OnboardingTest"/>
+			<class name="com.AMI.TestCases.LocalSellingTest"/>
+			<class name="com.AMI.TestCases.OverViewTest"/>
+			<class name="com.AMI.TestCases.TestActivitiesOverViewPage"/>
+			<class name="com.AMI.TestCases.ProductListingTest"/>
+
+			<class name="webhooksAMI.WebhooksTestVariantsProduct"/>
+			<class name="webhooksAMI.WebHooksTestSimpleProduct"/>
+			<class name="webhooksAMI.TestFeedInventory"/>
+			<class name="webhooksAMI.FeedInventoryVariantTest"/>
+			<class name="webhooksAMI.FeedInventoryTemplateTest"/>
+			<class name="com.AMI.TestCases.TestInventorySettings"/>
+			<class name="com.AMI.TestCases.ProductDetailsTest"/>
+			<class name="webhooksAMI.WebhooksFeedInventoryTest"/>
+			<class name="webhooksAMI.LocationWebhookTest"/>
+			<class name="webhooksAMI.DeleteLinkedShopifyProductTest"/>
+
+			<class name="webhooksAMI.WebhooksTestTemplateFeedInventory"/>
+
+			
+			<class name="com.AMI.TestCases.VariantEditTest"/>
+			<class name="com.AMI.TestCases.ProductEditTest"/>
+			<class name="com.AMI.TestCases.CustomTemplateTest"/>
+			<class name="com.AMI.TestCases.ValueMappingTest"/>
+			<class name="com.AMI.TestCases.CustomTemplateContextualSaveBarTest"/>
+			<class name="com.AMI.TestCases.SearchFieldListingGridTest"/>
+
+
+			<class name="com.AMI.TestCases.ProductEditOfferListingTest"/>
+			
+			<class name="com.AMI.TestCases.HelpFaqTest"/>
+			<class name="com.AMI.TestCases.DefaultTemplateTest"/>
+			
+
+	-->
+
+	    </classes>
+  </test> 
+
+</suite> 

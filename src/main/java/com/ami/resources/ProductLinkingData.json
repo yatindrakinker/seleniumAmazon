@@ -1,0 +1,22 @@
+[
+	{
+		"barcode_linked": "B06X3W3TM4",
+		"invalid_barcode_linked": "xyzabcdef",
+		"title_linked": "AmazonBasics SBD089WD Gel Mouse Pad with Wrist Rest (Black)",
+		"amz_seller_sku_linked": "#codisto-1959",
+		"shopify_seller_sku_linked": "Tool - Red Allen Wrench 456",
+		"barcode_linking_required": "016027501710",
+		"sku_linking_required": "0016027501710",
+		"title_linking_required": "Adidas Women's Regular fit Sports T-Shirt (FI4761_Black Melange_Medium",
+		"title_close_match": "abcd",
+		"barcode_close_match": "xyzabcdef876",
+		"sku__close_match": "1234567899876",
+		"link_with_shopify_product_title": "15mm Combo Wrench",
+		"link_with_shopify_product_SKU": "Tool - Ice 15mm Wrench",
+		"link_close_match_modal_title": "Sergio Pant",
+		"link_close_match_modal_invalid_title": "&^%",
+		"shopify_sku_link_modal_close_match": "1559456",
+		"shopify_barcode_link_modal_close_match": "30332",
+		"select_manually_title_close_match":" Recreate Update"
+	}
+]

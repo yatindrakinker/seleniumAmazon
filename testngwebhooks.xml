@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cedcommerce Amazon Channel" >
+
+	<listeners>
+		<listener class-name="listeners.Listeners"/>
+	</listeners>
+
+  	<test name="Webhooks">
+
+		<parameter name="browser" value="chrome"/>
+    	<classes>
+			<class name="webhooksAMI.FeedInventoryTemplateTest"/>
+<!--
+			<class name="webhooksAMI.FeedInventoryVariantTest"/>
+			
+			<class name="webhooksAMI.TestFeedInventory"/>
+			
+
+			<class name="webhooksAMI.WebhooksLargeDetailsTest"/>
+			<class name="webhooksAMI.WebHooksTestSimpleProduct"/>
+			<class name="webhooksAMI.WebhooksTestVariantsProduct"/>
+-->  	
+		</classes>
+
+  	</test> 
+
+</suite> 
